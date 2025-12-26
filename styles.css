@@ -96,6 +96,17 @@ button:focus {
   border-radius: 6px;
 }
 
+.requirements-list li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.6rem;
+}
+
+.requirements-list input[type="checkbox"]{
+    transform: scale(1.2);
+}
+
 .requirements legend {
   font-weight: bold;
 }
