@@ -101,7 +101,13 @@ button:focus {
     align-items: center;
     justify-content: space-between;
     margin-bottom: 0.6rem;
+    flex-wrap: nowrap;
+    flex-direction: row;
 }
+
+/* .requirements-list li span{
+    flex: -5;
+} */
 
 .requirements-list input[type="checkbox"]{
     transform: scale(1.2);
